@@ -18,17 +18,16 @@ Live demo is available [here](https://byanko55.github.io)
 ![Demo Page](https://i.ibb.co/h1QF06V/demo.webp)
 
 ### Light Mode
-![Demo Page-light](https://i.ibb.co/DtDPCpR/white.webp)
+![Demo Page-light](https://raw.githubusercontent.com/byanko55/jekyll-theme-satellite/master/docs/white.webp)
 
 ### Dark Mode
 ![Demo Page-dark](https://i.ibb.co/BjsrWg2/dark.webp)
 
 ### Fresh and Attractive Design
-<p>
-<img src="https://i.ibb.co/4NwrTyj/image-2.webp" height="400px" align="center"/>
-<img src="https://i.ibb.co/WvyBzkL/Animation.gif" height="400px" align="center"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/byanko55/jekyll-theme-satellite/master/docs/image-2.webp" height="400" />
+  <img src="https://raw.githubusercontent.com/byanko55/jekyll-theme-satellite/master/docs/Animation.gif" height="400" />
 </p>
-
 <br></br>
 
 ## Features
