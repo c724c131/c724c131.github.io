@@ -25,8 +25,8 @@ Live demo is available [here](https://byanko55.github.io)
 
 ### Fresh and Attractive Design
 <p align="center">
-  <img src="https://raw.githubusercontent.com/byanko55/jekyll-theme-satellite/master/docs/image-2.webp" height="400" />
-  <img src="https://raw.githubusercontent.com/byanko55/jekyll-theme-satellite/master/docs/Animation.gif" height="400" />
+  <img src="./assets/img/image-2.webp" height="400" />
+  <img src="./assets/img/Animation.gif" height="400" />
 </p>
 <br></br>
 
