@@ -15,10 +15,7 @@ An emotional and adorable blog theme powered by ***Jekyll***.
 
 Live demo is available [here](https://byanko55.github.io)
 
-![Demo Page](https://i.ibb.co/h1QF06V/demo.webp)
-
 ### Light Mode
-![Demo Page-light](https://raw.githubusercontent.com/byanko55/jekyll-theme-satellite/master/docs/white.webp)
 
 ### Dark Mode
 ![Demo Page-dark](https://i.ibb.co/BjsrWg2/dark.webp)
