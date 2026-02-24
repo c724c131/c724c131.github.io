@@ -1,11 +1,11 @@
 title: C724C131
-description: "Satellite - jekyll blog theme"
+description: "저의 기술 블로그입니다."
 logo_img: "/assets/img/profile3.png"
 profile_img: "/assets/img/profile3.png"
 
 # Social Links
-email: example@gmail.com
-github_username: github
+email: c724c131@gmail.com
+github_username: c724c131
 twitter_username: twitter
 instagram_username: instagram
 linkedin_username: linkedin
@@ -21,6 +21,7 @@ google_analytics:
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
 # Otherwise, set its value as "/<repo-name>". ex) baseurl: /myblog
+url: "https://c724c131.github.io"
 baseurl:
 
 # Build settings
