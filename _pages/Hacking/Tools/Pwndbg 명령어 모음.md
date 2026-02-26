@@ -1,3 +1,13 @@
+---
+title: "Pwndbg 명령어 모음"
+tags:
+    - reversing
+    - tools
+date: "2026-02-26"
+thumbnail: "https://i.ibb.co/MRzw6T9/sample.webp"
+bookmark: true
+---
+
 # pwndbg
 
 wsl 의 pwndbg의 사용법을 정리한 문서입니다.
