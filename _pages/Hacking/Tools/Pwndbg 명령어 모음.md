@@ -4,7 +4,7 @@ tags:
     - reversing
     - tools
 date: "2026-02-26"
-thumbnail: "https://i.ibb.co/MRzw6T9/sample.webp"
+thumbnail: "/assets/img/thumbnail/HowToUsePwndbg.png"
 bookmark: true
 ---
 
