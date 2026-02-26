@@ -77,7 +77,7 @@ pwndbg> n (ni) (next instruction) (명령어를 한 줄씩 실행, 함수가 있
 pwndbg> s (si) (step into) (함수가 있다면 함수 내부 명령어를 한 줄씩 실행)
 pwndbg> finish (si로 함수에 들어갔다면 바로 종료하고 나올 수 있습니다.)
 ```
-
+---
 ### info
 
 ```bash
@@ -168,7 +168,7 @@ info는 프로그램의 정보를 알 수 있는 기능입니다. i 또는 info�
 pwndbg> i r (info registers) (레지스터의 값을 확인할 때 사용합니다.)
 pwndbg> i b (info breakpoints) (breakpoint 확인)
 ```
-
+---
 ### breakpoint
 
 💡 실행 중단점을 설정하는 break point를 보려면 info breakpoint를 사용합니다.
@@ -181,7 +181,7 @@ pwndbg> disable 1 (그 번호의 breakpoint를 비활성화)
 pwndbg> enable 1 (그 번호의 breakpoint를 활성화)
 pwndbg> d 1 (delete 1) (그 번호의 breakpoint를 삭제)
 ```
-
+---
 ### disassemble
 
 💡 disassemble은 어셈블리 코드를 보여줍니다.
@@ -192,7 +192,7 @@ pwndbg> u (가독성 좋은 디스어셈블 코드 출력)
 pwndbg> nearpc
 pwndbg> pdisass
 ```
-
+---
 ### examine / telescope/ print
 
 💡 examine은 임의 주소의 값을 볼 수 있는 명령어입니다. (x는 실행 도중에만 사용할 수 있습니다.)
@@ -229,7 +229,7 @@ pwndbg> x/<포멧 및 크기> <주소 및 레지스터>
 pwndbg> x/<개수><포멧 및 크기> <주소 및 레지스터>
 ex) x/10gx %rsp (rsp에서 80바이트 8바이트씩 출력)
 ```
-
+---
 ### 메모리 관련 명령어
 
 💡 vmmap은 가상 메모리의 레이아웃을 보여줍니다.
@@ -283,7 +283,7 @@ pwndbg> dump memory <파일이름> <시작주소> <끝주소>
 💡 0x401000부터 0x402000을 code_section이라고 이름붙인 이유는 이 부분에 실행권한이 있기 때문입니다.
 
 </aside>
-
+---
 ### context
 
 💡  프로그램을 한 줄씩 실행할 때마다 뜨는 것을 맥락(Context)라고 부릅니다. Context는 ctx라는 단축 명령어를 통해서도 볼 수 있습니다.
@@ -307,7 +307,7 @@ set context-output /dev/null (context 끄기)
 
 set context-output stdout (context 켜기)
 ```
-
+---
 ### set
 
 💡 set은 메모리의 상태를 변경할 수 있는 명령어입니다. (set을 하고 나선 continue를 해야 유지 run을 하면 처음부터임)
