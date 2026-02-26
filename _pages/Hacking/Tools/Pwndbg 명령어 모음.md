@@ -31,7 +31,7 @@ cd pwndbg
 
 ---
 
-![image.png](/assets/img/HowToUsePwndbg/d2aad04d-bfd7-425e-816e-ef526dd88bc0.png)
+![image.png](/assets/img/howToUsePwndbg/d2aad04d-bfd7-425e-816e-ef526dd88bc0.png)
 
 <aside>
 
@@ -51,7 +51,7 @@ pwndbg> exit (pwndbg 나가기)
 
 ### elf 파일 열기와 실행하기
 
-![image.png](/assets/img/HowToUsePwndbg/image.png)
+![image.png](/assets/img/howToUsePwndbg/image.png)
 
 <aside>
 
@@ -173,7 +173,7 @@ pwndbg> i b (info breakpoints) (breakpoint 확인)
 
 💡 실행 중단점을 설정하는 break point를 보려면 info breakpoint를 사용합니다.
 
-![image.png](/assets/img/HowToUsePwndbg/image%201.png)
+![image.png](/assets/img/howToUsePwndbg/image%201.png)
 
 ```bash
 pwndbg> b $rdi (특정 레지스터가 가진 주소값을 breakpoint로 설정)
@@ -234,7 +234,7 @@ ex) x/10gx %rsp (rsp에서 80바이트 8바이트씩 출력)
 
 💡 vmmap은 가상 메모리의 레이아웃을 보여줍니다.
 
-![image.png](/assets/img/HowToUsePwndbg/image%202.png)
+![image.png](/assets/img/howToUsePwndbg/image%202.png)
 
  vmmap의 start 주소 + 디스어셈블러에서 본 주소를 하면 중단점 설정할 때 좋습니다.
 
@@ -258,9 +258,9 @@ C언어의 printf(), scanf() 등이 리눅스에서는 Libc에 구현되어있�
 
 💡 콜 스텍(call stack)은 함수 호출 순서를 저장하는 구조입니다. 콜 스택은 디버깅에서 유용하게 사용될 수 있습니다. 만약 함수에 전달된 인자에 문제가 생겨 버그가 발생하면 콜 스택을 거슬러 올라가 버그의 원인을 찾을  수 있습니다. 이때 backtrace 명령어를 사용할 수 있습니다.
 
-![image.png](/assets/img/HowToUsePwndbg/image%203.png)
+![image.png](/assets/img/howToUsePwndbg/image%203.png)
 
-![image.png](/assets/img/HowToUsePwndbg/image%204.png)
+![image.png](/assets/img/howToUsePwndbg/image%204.png)
 
 ```bash
 pwndbg> bt(backtrace)
@@ -270,9 +270,9 @@ pwndbg> bt(backtrace)
 
 💡 dump memory 는 프로세스 메모리 상태를 파일로 저장할 때 사용하는 명령어입니다. 
 
-![image.png](/assets/img/HowToUsePwndbg/image%205.png)
+![image.png](/assets/img/howToUsePwndbg/image%205.png)
 
-![image.png](/assets/img/HowToUsePwndbg/image%206.png)
+![image.png](/assets/img/howToUsePwndbg/image%206.png)
 
 ```bash
 pwndbg> dump memory <파일이름> <시작주소> <끝주소>
@@ -288,7 +288,7 @@ pwndbg> dump memory <파일이름> <시작주소> <끝주소>
 
 💡  프로그램을 한 줄씩 실행할 때마다 뜨는 것을 맥락(Context)라고 부릅니다. Context는 ctx라는 단축 명령어를 통해서도 볼 수 있습니다.
 
-![image.png](/assets/img/HowToUsePwndbg/image%207.png)
+![image.png](/assets/img/howToUsePwndbg/image%207.png)
 
 <aside>
 
