@@ -2,6 +2,7 @@
 title: "Faker's Matrix 풀이"
 tags:
     - reversing
+    - wargame
 date: "2026-02-27"
 thumbnail: "/assets/img/thumbnail/HowToUsePwndbg.png"
 bookmark: true
