@@ -4,7 +4,7 @@ tags:
     - reversing
     - wargame
 date: "2026-02-27"
-thumbnail: "/assets/img/thumbnail/HowToUsePwndbg.png"
+thumbnail: "/assets/img/fakerMatrix/image.png"
 bookmark: true
 ---
 
